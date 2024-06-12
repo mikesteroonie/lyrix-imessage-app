@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95789EDB2BA4E44C00DBDEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95789EDA2BA4E44C00DBDEE5 /* Assets.xcassets */; };
+		95789EE12BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 95789EE02BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		95789EE62BA4E44C00DBDEE5 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95789EE52BA4E44C00DBDEE5 /* Messages.framework */; };
+		95789EE92BA4E44C00DBDEE5 /* MessagesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95789EE82BA4E44C00DBDEE5 /* MessagesViewController.swift */; };
+		95789EEC2BA4E44C00DBDEE5 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95789EEA2BA4E44C00DBDEE5 /* MainInterface.storyboard */; };
+		95789EEE2BA4E44D00DBDEE5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95789EED2BA4E44D00DBDEE5 /* Assets.xcassets */; };
+		95789F002BA7AF2200DBDEE5 /* kanye.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFB2BA7AF2200DBDEE5 /* kanye.png */; };
+		95789F012BA7AF2200DBDEE5 /* kanye.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFB2BA7AF2200DBDEE5 /* kanye.png */; };
+		95789F022BA7AF2200DBDEE5 /* taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFC2BA7AF2200DBDEE5 /* taylor.png */; };
+		95789F032BA7AF2200DBDEE5 /* taylor.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFC2BA7AF2200DBDEE5 /* taylor.png */; };
+		95789F042BA7AF2200DBDEE5 /* drake.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFD2BA7AF2200DBDEE5 /* drake.png */; };
+		95789F052BA7AF2200DBDEE5 /* drake.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFD2BA7AF2200DBDEE5 /* drake.png */; };
+		95789F062BA7AF2200DBDEE5 /* sza.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFE2BA7AF2200DBDEE5 /* sza.png */; };
+		95789F072BA7AF2200DBDEE5 /* sza.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFE2BA7AF2200DBDEE5 /* sza.png */; };
+		95789F082BA7AF2200DBDEE5 /* travis.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFF2BA7AF2200DBDEE5 /* travis.png */; };
+		95789F092BA7AF2200DBDEE5 /* travis.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789EFF2BA7AF2200DBDEE5 /* travis.png */; };
+		95789F0B2BA7CA2200DBDEE5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95789F0A2BA7CA2200DBDEE5 /* DetailViewController.swift */; };
+		95789F0D2BA7CE3B00DBDEE5 /* albums in Resources */ = {isa = PBXBuildFile; fileRef = 95789F0C2BA7CE3B00DBDEE5 /* albums */; };
+		95789F0E2BA7CE3B00DBDEE5 /* albums in Resources */ = {isa = PBXBuildFile; fileRef = 95789F0C2BA7CE3B00DBDEE5 /* albums */; };
+		95789F102BAB7E6A00DBDEE5 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95789F0F2BAB7E6A00DBDEE5 /* AboutViewController.swift */; };
+		95789F142BAB8D5900DBDEE5 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95789F132BAB8D5900DBDEE5 /* CreateViewController.swift */; };
+		95789F162BAB9CBD00DBDEE5 /* CustomNavigationAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95789F152BAB9CBD00DBDEE5 /* CustomNavigationAnimation.swift */; };
+		95789F192BABA39B00DBDEE5 /* artistselection.png in Resources */ = {isa = PBXBuildFile; fileRef = 95789F182BABA39B00DBDEE5 /* artistselection.png */; };
+		95ECD0922BB7995000A320FA /* weeknd.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD08F2BB7995000A320FA /* weeknd.png */; };
+		95ECD0932BB7995000A320FA /* future.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0902BB7995000A320FA /* future.png */; };
+		95ECD0942BB7995000A320FA /* olivia.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0912BB7995000A320FA /* olivia.png */; };
+		95ECD0B02BB8986300A320FA /* taylorpile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0A82BB8986300A320FA /* taylorpile.png */; };
+		95ECD0B12BB8986300A320FA /* kanyepile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0A92BB8986300A320FA /* kanyepile.png */; };
+		95ECD0B22BB8986300A320FA /* szapile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AA2BB8986300A320FA /* szapile.png */; };
+		95ECD0B32BB8986300A320FA /* weekndpile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AB2BB8986300A320FA /* weekndpile.png */; };
+		95ECD0B42BB8986300A320FA /* drakepile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AC2BB8986300A320FA /* drakepile.png */; };
+		95ECD0B52BB8986300A320FA /* oliviapile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AD2BB8986300A320FA /* oliviapile.png */; };
+		95ECD0B62BB8986300A320FA /* futurepile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AE2BB8986300A320FA /* futurepile.png */; };
+		95ECD0B72BB8986300A320FA /* travispile.png in Resources */ = {isa = PBXBuildFile; fileRef = 95ECD0AF2BB8986300A320FA /* travispile.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95789EE22BA4E44C00DBDEE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95789ED12BA4E44A00DBDEE5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95789EDF2BA4E44C00DBDEE5;
+			remoteInfo = "lyrix_ios_app MessagesExtension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95789EF52BA4E44D00DBDEE5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				95789EE12BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95789ED72BA4E44A00DBDEE5 /* lyrix_ios_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = lyrix_ios_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95789EDA2BA4E44C00DBDEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95789EE02BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "lyrix_ios_app MessagesExtension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		95789EE52BA4E44C00DBDEE5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		95789EE82BA4E44C00DBDEE5 /* MessagesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesViewController.swift; sourceTree = "<group>"; };
+		95789EEB2BA4E44C00DBDEE5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		95789EED2BA4E44D00DBDEE5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95789EEF2BA4E44D00DBDEE5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95789EFB2BA7AF2200DBDEE5 /* kanye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanye.png; sourceTree = "<group>"; };
+		95789EFC2BA7AF2200DBDEE5 /* taylor.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taylor.png; sourceTree = "<group>"; };
+		95789EFD2BA7AF2200DBDEE5 /* drake.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drake.png; sourceTree = "<group>"; };
+		95789EFE2BA7AF2200DBDEE5 /* sza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sza.png; sourceTree = "<group>"; };
+		95789EFF2BA7AF2200DBDEE5 /* travis.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travis.png; sourceTree = "<group>"; };
+		95789F0A2BA7CA2200DBDEE5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		95789F0C2BA7CE3B00DBDEE5 /* albums */ = {isa = PBXFileReference; lastKnownFileType = folder; path = albums; sourceTree = "<group>"; };
+		95789F0F2BAB7E6A00DBDEE5 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		95789F132BAB8D5900DBDEE5 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		95789F152BAB9CBD00DBDEE5 /* CustomNavigationAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomNavigationAnimation.swift; sourceTree = "<group>"; };
+		95789F182BABA39B00DBDEE5 /* artistselection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = artistselection.png; sourceTree = "<group>"; };
+		95ECD08F2BB7995000A320FA /* weeknd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weeknd.png; sourceTree = "<group>"; };
+		95ECD0902BB7995000A320FA /* future.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = future.png; sourceTree = "<group>"; };
+		95ECD0912BB7995000A320FA /* olivia.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = olivia.png; sourceTree = "<group>"; };
+		95ECD0A82BB8986300A320FA /* taylorpile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = taylorpile.png; sourceTree = "<group>"; };
+		95ECD0A92BB8986300A320FA /* kanyepile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kanyepile.png; sourceTree = "<group>"; };
+		95ECD0AA2BB8986300A320FA /* szapile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = szapile.png; sourceTree = "<group>"; };
+		95ECD0AB2BB8986300A320FA /* weekndpile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weekndpile.png; sourceTree = "<group>"; };
+		95ECD0AC2BB8986300A320FA /* drakepile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = drakepile.png; sourceTree = "<group>"; };
+		95ECD0AD2BB8986300A320FA /* oliviapile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = oliviapile.png; sourceTree = "<group>"; };
+		95ECD0AE2BB8986300A320FA /* futurepile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = futurepile.png; sourceTree = "<group>"; };
+		95ECD0AF2BB8986300A320FA /* travispile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = travispile.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95789EDD2BA4E44C00DBDEE5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95789EE62BA4E44C00DBDEE5 /* Messages.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95789ED02BA4E44A00DBDEE5 = {
+			isa = PBXGroup;
+			children = (
+				95789ED92BA4E44A00DBDEE5 /* lyrix_ios_app */,
+				95789EE72BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension */,
+				95789EE42BA4E44C00DBDEE5 /* Frameworks */,
+				95789ED82BA4E44A00DBDEE5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95789ED82BA4E44A00DBDEE5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95789ED72BA4E44A00DBDEE5 /* lyrix_ios_app.app */,
+				95789EE02BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95789ED92BA4E44A00DBDEE5 /* lyrix_ios_app */ = {
+			isa = PBXGroup;
+			children = (
+				95789EDA2BA4E44C00DBDEE5 /* Assets.xcassets */,
+			);
+			path = lyrix_ios_app;
+			sourceTree = "<group>";
+		};
+		95789EE42BA4E44C00DBDEE5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				95789EE52BA4E44C00DBDEE5 /* Messages.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		95789EE72BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension */ = {
+			isa = PBXGroup;
+			children = (
+				95ECD0952BB8958800A320FA /* Artist_Piles */,
+				95789F172BABA38E00DBDEE5 /* definitions */,
+				95789F0C2BA7CE3B00DBDEE5 /* albums */,
+				95789EFA2BA7A9BC00DBDEE5 /* Artist_Faces */,
+				95789EE82BA4E44C00DBDEE5 /* MessagesViewController.swift */,
+				95789EEA2BA4E44C00DBDEE5 /* MainInterface.storyboard */,
+				95789EED2BA4E44D00DBDEE5 /* Assets.xcassets */,
+				95789EEF2BA4E44D00DBDEE5 /* Info.plist */,
+				95789F0A2BA7CA2200DBDEE5 /* DetailViewController.swift */,
+				95789F0F2BAB7E6A00DBDEE5 /* AboutViewController.swift */,
+				95789F132BAB8D5900DBDEE5 /* CreateViewController.swift */,
+				95789F152BAB9CBD00DBDEE5 /* CustomNavigationAnimation.swift */,
+			);
+			path = "lyrix_ios_app MessagesExtension";
+			sourceTree = "<group>";
+		};
+		95789EFA2BA7A9BC00DBDEE5 /* Artist_Faces */ = {
+			isa = PBXGroup;
+			children = (
+				95789EFD2BA7AF2200DBDEE5 /* drake.png */,
+				95789EFE2BA7AF2200DBDEE5 /* sza.png */,
+				95789EFC2BA7AF2200DBDEE5 /* taylor.png */,
+				95789EFF2BA7AF2200DBDEE5 /* travis.png */,
+				95789EFB2BA7AF2200DBDEE5 /* kanye.png */,
+				95ECD0902BB7995000A320FA /* future.png */,
+				95ECD0912BB7995000A320FA /* olivia.png */,
+				95ECD08F2BB7995000A320FA /* weeknd.png */,
+			);
+			path = Artist_Faces;
+			sourceTree = "<group>";
+		};
+		95789F172BABA38E00DBDEE5 /* definitions */ = {
+			isa = PBXGroup;
+			children = (
+				95789F182BABA39B00DBDEE5 /* artistselection.png */,
+			);
+			path = definitions;
+			sourceTree = "<group>";
+		};
+		95ECD0952BB8958800A320FA /* Artist_Piles */ = {
+			isa = PBXGroup;
+			children = (
+				95ECD0AC2BB8986300A320FA /* drakepile.png */,
+				95ECD0AE2BB8986300A320FA /* futurepile.png */,
+				95ECD0A92BB8986300A320FA /* kanyepile.png */,
+				95ECD0AD2BB8986300A320FA /* oliviapile.png */,
+				95ECD0AA2BB8986300A320FA /* szapile.png */,
+				95ECD0A82BB8986300A320FA /* taylorpile.png */,
+				95ECD0AF2BB8986300A320FA /* travispile.png */,
+				95ECD0AB2BB8986300A320FA /* weekndpile.png */,
+			);
+			path = Artist_Piles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95789ED62BA4E44A00DBDEE5 /* lyrix_ios_app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95789EF62BA4E44D00DBDEE5 /* Build configuration list for PBXNativeTarget "lyrix_ios_app" */;
+			buildPhases = (
+				95789ED52BA4E44A00DBDEE5 /* Resources */,
+				95789EF52BA4E44D00DBDEE5 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95789EE32BA4E44C00DBDEE5 /* PBXTargetDependency */,
+			);
+			name = lyrix_ios_app;
+			productName = lyrix_ios_app;
+			productReference = 95789ED72BA4E44A00DBDEE5 /* lyrix_ios_app.app */;
+			productType = "com.apple.product-type.application.messages";
+		};
+		95789EDF2BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95789EF22BA4E44D00DBDEE5 /* Build configuration list for PBXNativeTarget "lyrix_ios_app MessagesExtension" */;
+			buildPhases = (
+				95789EDC2BA4E44C00DBDEE5 /* Sources */,
+				95789EDD2BA4E44C00DBDEE5 /* Frameworks */,
+				95789EDE2BA4E44C00DBDEE5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "lyrix_ios_app MessagesExtension";
+			productName = "lyrix_ios_app MessagesExtension";
+			productReference = 95789EE02BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension.appex */;
+			productType = "com.apple.product-type.app-extension.messages";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95789ED12BA4E44A00DBDEE5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					95789ED62BA4E44A00DBDEE5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					95789EDF2BA4E44C00DBDEE5 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 95789ED42BA4E44A00DBDEE5 /* Build configuration list for PBXProject "lyrix_ios_app" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95789ED02BA4E44A00DBDEE5;
+			productRefGroup = 95789ED82BA4E44A00DBDEE5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95789ED62BA4E44A00DBDEE5 /* lyrix_ios_app */,
+				95789EDF2BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95789ED52BA4E44A00DBDEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95789EDB2BA4E44C00DBDEE5 /* Assets.xcassets in Resources */,
+				95789F042BA7AF2200DBDEE5 /* drake.png in Resources */,
+				95789F082BA7AF2200DBDEE5 /* travis.png in Resources */,
+				95789F0D2BA7CE3B00DBDEE5 /* albums in Resources */,
+				95789F022BA7AF2200DBDEE5 /* taylor.png in Resources */,
+				95789F062BA7AF2200DBDEE5 /* sza.png in Resources */,
+				95789F002BA7AF2200DBDEE5 /* kanye.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95789EDE2BA4E44C00DBDEE5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95789EEE2BA4E44D00DBDEE5 /* Assets.xcassets in Resources */,
+				95ECD0B52BB8986300A320FA /* oliviapile.png in Resources */,
+				95789F192BABA39B00DBDEE5 /* artistselection.png in Resources */,
+				95789F092BA7AF2200DBDEE5 /* travis.png in Resources */,
+				95ECD0922BB7995000A320FA /* weeknd.png in Resources */,
+				95ECD0932BB7995000A320FA /* future.png in Resources */,
+				95789F0E2BA7CE3B00DBDEE5 /* albums in Resources */,
+				95ECD0B22BB8986300A320FA /* szapile.png in Resources */,
+				95789F052BA7AF2200DBDEE5 /* drake.png in Resources */,
+				95ECD0B62BB8986300A320FA /* futurepile.png in Resources */,
+				95ECD0942BB7995000A320FA /* olivia.png in Resources */,
+				95ECD0B32BB8986300A320FA /* weekndpile.png in Resources */,
+				95ECD0B72BB8986300A320FA /* travispile.png in Resources */,
+				95ECD0B12BB8986300A320FA /* kanyepile.png in Resources */,
+				95789F072BA7AF2200DBDEE5 /* sza.png in Resources */,
+				95789F012BA7AF2200DBDEE5 /* kanye.png in Resources */,
+				95ECD0B42BB8986300A320FA /* drakepile.png in Resources */,
+				95ECD0B02BB8986300A320FA /* taylorpile.png in Resources */,
+				95789F032BA7AF2200DBDEE5 /* taylor.png in Resources */,
+				95789EEC2BA4E44C00DBDEE5 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95789EDC2BA4E44C00DBDEE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95789F142BAB8D5900DBDEE5 /* CreateViewController.swift in Sources */,
+				95789F102BAB7E6A00DBDEE5 /* AboutViewController.swift in Sources */,
+				95789EE92BA4E44C00DBDEE5 /* MessagesViewController.swift in Sources */,
+				95789F0B2BA7CA2200DBDEE5 /* DetailViewController.swift in Sources */,
+				95789F162BAB9CBD00DBDEE5 /* CustomNavigationAnimation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95789EE32BA4E44C00DBDEE5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95789EDF2BA4E44C00DBDEE5 /* lyrix_ios_app MessagesExtension */;
+			targetProxy = 95789EE22BA4E44C00DBDEE5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95789EEA2BA4E44C00DBDEE5 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95789EEB2BA4E44C00DBDEE5 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95789EF02BA4E44D00DBDEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95789EF12BA4E44D00DBDEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		95789EF32BA4E44D00DBDEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lyrix_ios_app MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = lyrix_ios_app;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelkim.lyrix-ios-app.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95789EF42BA4E44D00DBDEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "iMessage App Icon";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "lyrix_ios_app MessagesExtension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = lyrix_ios_app;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelkim.lyrix-ios-app.MessagesExtension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		95789EF72BA4E44D00DBDEE5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelkim.lyrix-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		95789EF82BA4E44D00DBDEE5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "michaelkim.lyrix-ios-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95789ED42BA4E44A00DBDEE5 /* Build configuration list for PBXProject "lyrix_ios_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95789EF02BA4E44D00DBDEE5 /* Debug */,
+				95789EF12BA4E44D00DBDEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95789EF22BA4E44D00DBDEE5 /* Build configuration list for PBXNativeTarget "lyrix_ios_app MessagesExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95789EF32BA4E44D00DBDEE5 /* Debug */,
+				95789EF42BA4E44D00DBDEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95789EF62BA4E44D00DBDEE5 /* Build configuration list for PBXNativeTarget "lyrix_ios_app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95789EF72BA4E44D00DBDEE5 /* Debug */,
+				95789EF82BA4E44D00DBDEE5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95789ED12BA4E44A00DBDEE5 /* Project object */;
+}
